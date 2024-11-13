@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "teste-docker-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["Luiz Phillip Quintanilha da Silva"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.40.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
